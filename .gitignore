@@ -1,0 +1,105 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# Datasets (archivos grandes - NO subir a GitHub)
+datasets/
+*.dat
+*.hea
+*.atr
+*.ari
+*.xws
+
+# Resultados generados (excluir por defecto)
+results/
+!results/*.md
+!results/*.html
+
+# Modelos entrenados (opcional - pueden ser grandes)
+# Descomenta si no quieres subir modelos
+# models/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+training_monitor.log
+
+# Configuración y checkpoints
+config/
+*.checkpoint
+descarga_checkpoint.json
+archivos_omitidos.json
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de descarga
+physionet.org/
+download_*.log
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments
+.env
+.env.local
+
+# Archivos de prueba
+test_*.html
+verify_*.sh
+
