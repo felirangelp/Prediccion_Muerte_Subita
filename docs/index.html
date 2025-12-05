@@ -48,6 +48,21 @@
             margin-top: 10px;
         }
 
+        .alert-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            color: #856404;
+        }
+
+        .alert-box strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
         .dashboards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -138,6 +153,10 @@
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
 
+        .button-primary {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+
         .button-secondary {
             background: white;
             color: #667eea;
@@ -215,16 +234,6 @@
             opacity: 0.8;
         }
 
-        .status-badge {
-            display: inline-block;
-            background: #28a745;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            margin-left: 10px;
-        }
-
         @media (max-width: 768px) {
             .dashboards-grid {
                 grid-template-columns: 1fr;
@@ -253,6 +262,13 @@
             <p class="subtitle">Proyecto Final - Maestría en Inteligencia Artificial | Pontificia Universidad Javeriana</p>
         </div>
 
+        <div class="alert-box">
+            <strong>💡 Cómo Acceder a los Dashboards:</strong>
+            <p>Si los dashboards no cargan desde GitHub Pages, <strong>descárgalos y ábrelos en tu navegador</strong>. 
+            Los dashboards son archivos HTML autocontenidos que funcionan perfectamente cuando los abres localmente.</p>
+            <p style="margin-top: 10px;"><strong>Instrucciones:</strong> Haz clic en "Descargar Dashboard" → Guarda el archivo → Haz doble clic para abrirlo en tu navegador.</p>
+        </div>
+
         <div class="dashboards-grid">
             <!-- Dashboard de Presentación -->
             <div class="dashboard-card">
@@ -275,12 +291,12 @@
                     <li>Conclusiones y trabajo futuro</li>
                 </ul>
                 <div class="button-group">
-                    <a href="dashboard_presentacion.html" class="button">
-                        Ver Dashboard (GitHub Pages) →
+                    <a href="dashboard_presentacion.html" class="button" target="_blank">
+                        Ver en GitHub Pages →
                     </a>
-                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/blob/main/docs/dashboard_presentacion.html" 
-                       class="button button-secondary" target="_blank">
-                        Descargar Dashboard →
+                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/raw/main/docs/dashboard_presentacion.html" 
+                       class="button button-primary" download="dashboard_presentacion.html">
+                        ⬇️ Descargar Dashboard →
                     </a>
                 </div>
             </div>
@@ -306,12 +322,12 @@
                     <li>Visualizaciones interactivas con Plotly</li>
                 </ul>
                 <div class="button-group">
-                    <a href="dashboard_analisis.html" class="button">
-                        Ver Dashboard (GitHub Pages) →
+                    <a href="dashboard_analisis.html" class="button" target="_blank">
+                        Ver en GitHub Pages →
                     </a>
-                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/blob/main/docs/dashboard_analisis.html" 
-                       class="button button-secondary" target="_blank">
-                        Descargar Dashboard →
+                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/raw/main/docs/dashboard_analisis.html" 
+                       class="button button-primary" download="dashboard_analisis.html">
+                        ⬇️ Descargar Dashboard →
                     </a>
                 </div>
             </div>
