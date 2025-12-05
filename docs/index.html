@@ -48,21 +48,6 @@
             margin-top: 10px;
         }
 
-        .alert-box {
-            background: #fff3cd;
-            border: 2px solid #ffc107;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 30px;
-            color: #856404;
-        }
-
-        .alert-box strong {
-            display: block;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-
         .dashboards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -129,43 +114,24 @@
             width: 20px;
         }
 
-        .button-group {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-
         .button {
             display: inline-block;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 12px 25px;
+            padding: 15px 35px;
             border-radius: 25px;
             text-decoration: none;
             font-weight: bold;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            font-size: 0.95em;
+            font-size: 1.1em;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
         }
 
         .button:hover {
             transform: scale(1.05);
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-        }
-
-        .button-primary {
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-        }
-
-        .button-secondary {
-            background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
-        }
-
-        .button-secondary:hover {
-            background: #667eea;
-            color: white;
         }
 
         .info-section {
@@ -242,15 +208,6 @@
             .header h1 {
                 font-size: 2em;
             }
-
-            .button-group {
-                flex-direction: column;
-            }
-
-            .button {
-                width: 100%;
-                text-align: center;
-            }
         }
     </style>
 </head>
@@ -260,13 +217,6 @@
             <h1>🫀 Predicción de Muerte Súbita Cardíaca</h1>
             <p>Dashboards Interactivos - Análisis de Señales ECG con Machine Learning</p>
             <p class="subtitle">Proyecto Final - Maestría en Inteligencia Artificial | Pontificia Universidad Javeriana</p>
-        </div>
-
-        <div class="alert-box">
-            <strong>💡 Cómo Acceder a los Dashboards:</strong>
-            <p>Si los dashboards no cargan desde GitHub Pages, <strong>descárgalos y ábrelos en tu navegador</strong>. 
-            Los dashboards son archivos HTML autocontenidos que funcionan perfectamente cuando los abres localmente.</p>
-            <p style="margin-top: 10px;"><strong>Instrucciones:</strong> Haz clic en "Descargar Dashboard" → Guarda el archivo → Haz doble clic para abrirlo en tu navegador.</p>
         </div>
 
         <div class="dashboards-grid">
@@ -290,15 +240,9 @@
                     <li>Análisis multi-clase y predicciones</li>
                     <li>Conclusiones y trabajo futuro</li>
                 </ul>
-                <div class="button-group">
-                    <a href="dashboard_presentacion.html" class="button" target="_blank">
-                        Ver en GitHub Pages →
-                    </a>
-                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/raw/main/docs/dashboard_presentacion.html" 
-                       class="button button-primary" download="dashboard_presentacion.html">
-                        ⬇️ Descargar Dashboard →
-                    </a>
-                </div>
+                <a href="dashboard_presentacion.html" class="button">
+                    Ver Dashboard de Presentación →
+                </a>
             </div>
 
             <!-- Dashboard de Análisis Técnico -->
@@ -321,15 +265,9 @@
                     <li>Análisis Pan-Tompkins para detección de ondas</li>
                     <li>Visualizaciones interactivas con Plotly</li>
                 </ul>
-                <div class="button-group">
-                    <a href="dashboard_analisis.html" class="button" target="_blank">
-                        Ver en GitHub Pages →
-                    </a>
-                    <a href="https://github.com/felirangelp/Prediccion_Muerte_Subita/raw/main/docs/dashboard_analisis.html" 
-                       class="button button-primary" download="dashboard_analisis.html">
-                        ⬇️ Descargar Dashboard →
-                    </a>
-                </div>
+                <a href="dashboard_analisis.html" class="button">
+                    Ver Dashboard de Análisis Técnico →
+                </a>
             </div>
         </div>
 
