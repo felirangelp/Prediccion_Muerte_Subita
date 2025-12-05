@@ -21,9 +21,9 @@ Sistema avanzado de **Machine Learning** para la predicción temprana de muerte 
 | Hierarchical Fusion | 87.9% | 86.7% | 87.8% |
 | Hybrid Model | 74.8% | 85.9% | 75.1% |
 
-## 📊 Dashboard Interactivo
+## 📊 Dashboards Interactivos
 
-### 🔗 [Acceder al Dashboard](https://felirangelp.github.io/Prediccion_Muerte_Subita/)
+### 🔗 [Acceder a los Dashboards](https://felirangelp.github.io/Prediccion_Muerte_Subita/)
 
 **El dashboard está disponible en GitHub Pages** e incluye:
 - ✅ Análisis comparativo de los 3 modelos
