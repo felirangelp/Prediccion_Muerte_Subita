@@ -8,10 +8,10 @@ Sistema avanzado de **Machine Learning** para la predicción temprana de muerte 
 
 ## 🚀 Acceso Rápido
 
-- **📊 [Ver Dashboard Interactivo](https://felirangelp.github.io/Prediccion_Muerte_Subita/)** - Visualiza resultados, métricas y análisis completos
-- **📖 [Guía Paso a Paso](QUICKSTART.md)** - Instrucciones detalladas para replicar el proyecto
-- **💻 [Código Fuente](src/)** - Implementación completa de los 3 modelos
-- **🔧 [Scripts de Ejecución](scripts/)** - Scripts listos para usar
+- **📊 [Ver Dashboard Interactivo](https://felirangelp.github.io/Prediccion_Muerte_Subita_ECG_v1/)** - Visualiza resultados, métricas y análisis completos
+- **📖 [Guía Paso a Paso](https://github.com/felirangelp/Prediccion_Muerte_Subita/blob/main/QUICKSTART.md)** - Instrucciones detalladas para replicar el proyecto
+- **💻 [Código Fuente](https://github.com/felirangelp/Prediccion_Muerte_Subita/tree/main/src)** - Implementación completa de los 3 modelos
+- **🔧 [Scripts de Ejecución](https://github.com/felirangelp/Prediccion_Muerte_Subita/tree/main/scripts)** - Scripts listos para usar
 
 ## 🎯 Resultados Principales
 
